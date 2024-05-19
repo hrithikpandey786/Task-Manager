@@ -8,6 +8,4 @@ const connectDB = (url)=>{
         useUnifiedTopology:true})
 }
 
-// connectDB(connectionString);
-
 module.exports = connectDB;
